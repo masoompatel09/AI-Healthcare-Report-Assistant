@@ -1,21 +1,42 @@
 # Virtual Environment
 venv/
+.venv/
+env/
 
 # Python Cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Streamlit Cache
 .streamlit/
 
-# VS Code
+# VS Code & IDEs
 .vscode/
+.idea/
 
-# Environment Variables
+# Environment Variables & Secrets
 .env
+.env.*
+*.pem
+*.key
 
-# macOS
+# Patient Data & Health Records (PII / PHI)
+patients.xlsx
+*.xlsx
+*.xls
+*.csv
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS Generated Files
 .DS_Store
+Thumbs.db
+desktop.ini
 
 # Logs
 *.log
